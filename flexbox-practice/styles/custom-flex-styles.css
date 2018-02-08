@@ -1,0 +1,47 @@
+.flex-container {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+.flex-container div:nth-child(even) {
+  height: 6rem;
+}
+
+header {
+  background-color: olive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5rem;
+}
+
+
+/* PRACTICE 1
+  width: 50%;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+
+PRACTICE 2
+  width: 25%;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+PRACTICE 3
+  width: 50%;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+PRACTICE 4
+  width: 28%;
+  flex-flow: row wrap-reverse;
+  justify-content: space-between;
+
+PRACTICE 5
+  height: 40rem;
+  width: 28%;
+  flex-flow: column wrap;
+  justify-content: flex-end;
